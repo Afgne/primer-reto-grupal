@@ -1,0 +1,96 @@
+Caso 1:
+
+Caso 2:
+print("\n=================================================================")
+print("               20 aniversario de la venta de tecnologia")
+print("=================================================================")
+print("\nSeleccione el articulo que desea:")
+print("\n1. Teclado Games")
+print("\n2. Tarjeta de video")
+print("\n3. Monitor LCD")
+print("\n4. Targeta madre")
+
+opcion = int(input("\nIngrese la acción que desea ejecutar: (1, 2, 3, 4): "))
+
+if opcion == 1:
+    precio = int(input("\nIngrese el precio del teclado gamer:"))
+    descuento = (15*precio)/100;
+    preciofinal = (precio-descuento);
+    print("Descuento: ", descuento);
+    print( "Precio final del teclado gamer: ", preciofinal);
+    exit()
+elif opcion == 2:
+    precio = int(input("\nIngrese el precio de la Tarjeta de video:"))
+    descuento = (8*precio)/100;
+    preciofinal = (precio-descuento);
+    print("Descuento: ", descuento);
+    print( "Precio final de la tarjeta de video: ", preciofinal);
+    exit()
+elif opcion == 3:
+    precio = int(input("\nIngrese el precio de la Monitor LCD:"))
+    descuento = (5*precio)/100;
+    preciofinal = (precio-descuento);
+    print("Descuento: ", descuento);
+    print( "Precio final del Monitor LCD: ", preciofinal);
+    exit()
+elif opcion == 4:
+    precio = int(input("\nIngrese el precio de la Targeta madre:"))
+    descuento = (5*precio)/100;
+    preciofinal = (precio-descuento);
+    print("Descuento: ", descuento);
+    print( "Precio final de la Tarjeta madre: ", preciofinal);
+    exit()
+Caso 3:
+
+Caso 4:
+print("\n=================================================================")
+print("                              Calendario")
+print("=================================================================")
+print("\nverifique que dia es hoy")
+print("\n1. Lunes")
+print("\n2. Martes")
+print("\n3. Miercoles")
+print("\n4. Jueves")
+print("\n5. Viernes")
+print("\n6. Sabado")
+print("\n7. Domingo")
+
+opcion = int(input("\nIngrese la acción que desea ejecutar: (1, 2, 3, 4, 5, 6, 7): "))
+if opcion == 1:
+    print( "\n") 
+    print( "\n Hoy toca rutina de piernas ")
+    print( "\n")
+elif opcion == 2:
+    print( "\n")
+    print( "\n Hoy toca rutina de brazos")
+    print( "\n")
+    exit ()
+elif opcion == 3:
+    print( "\n")
+    print( "\n Hoy toca rutina de ejercicios reto crossfit 1")
+    print( "\n")
+    exit ()
+elif opcion == 4:
+    print( "\n")
+    print( "\n Hoy toca rutina de ejercicios reto crossfit 2")
+    print( "\n")
+    exit ()
+elif opcion == 5:
+    print( "\n")
+    print( "\n Hoy toca rutina de cardio")
+    print( "\n")
+    exit ()
+elif opcion == 6:
+    print( "\n")
+    print( "\n Hoy toca rutina de Zumba")
+    print( "\n")
+    exit ()
+elif opcion == 7:
+    print( "\n")
+    print( "\n Hoy toca rutina de piscina")
+    print( "\n")
+    exit ()
+elif opcion > 7 or opcion <=0:
+    print( "\n")
+    print("Dia invalido")
+    exit()

@@ -1,4 +1,54 @@
 Caso 1:
+print("\n=================================================================")
+print("                              Calendario")
+print("=================================================================")
+print("\n1. Enero")
+print("\n2. Febrero")
+print("\n3. Marzo")
+print("\n4. Abril")
+print("\n5. Mayo")
+print("\n6. Junio")
+print("\n6. Julio")
+
+opcion = int(input("\nIngrese el mes para poder determinar que bonificacion se dio (1, 2, 3, 4, 5, 6, 7): "))
+if opcion == 1:
+    print( "\n") 
+    print( "En enero se dio una canasta de viveres")
+    print( "\n")
+elif opcion == 2:
+    print( "\n")
+    print( "En febrero se dio un certificado de mejor empleado")
+    print( "\n")
+    exit ()
+elif opcion == 3:
+    print( "\n")
+    print( "En marzo se dio un bono de 50k colones")
+    print( "\n")
+    exit ()
+elif opcion == 4:
+    print( "\n")
+    print( "En abril se dio una canasta de productos de limpieza")
+    print( "\n")
+    exit ()
+elif opcion == 5:
+    print( "\n")
+    print( "En mayo se dio un bono de 80k colones")
+    print( "\n")
+    exit ()
+elif opcion == 6:
+    print( "\n")
+    print( "En junio se dio una canasta de snacks ")
+    print( "\n")
+    exit ()
+elif opcion == 7:
+    print( "\n")
+    print( "En julio se dio una lonchera para el amuerzo")
+    print( "\n")
+    exit ()
+elif opcion > 7 or opcion <=0:
+    print( "\n")
+    print("Mes sin bonificacion o mes invalido")
+    exit()
 
 Caso 2:
 print("\n=================================================================")
@@ -46,7 +96,6 @@ Caso 4:
 print("\n=================================================================")
 print("                              Calendario")
 print("=================================================================")
-print("\nverifique que dia es hoy")
 print("\n1. Lunes")
 print("\n2. Martes")
 print("\n3. Miercoles")
@@ -55,7 +104,7 @@ print("\n5. Viernes")
 print("\n6. Sabado")
 print("\n7. Domingo")
 
-opcion = int(input("\nIngrese la acción que desea ejecutar: (1, 2, 3, 4, 5, 6, 7): "))
+opcion = int(input("\nVerifique el dia de la semana: (1, 2, 3, 4, 5, 6, 7): "))
 if opcion == 1:
     print( "\n") 
     print( "\n Hoy toca rutina de piernas ")

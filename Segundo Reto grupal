@@ -1,3 +1,157 @@
 Caso 1:
+#la nota es en un numero entre 1-100
+aprobados = 0
+aplazados = 0
+reprobados = 0
+print("\nSeleccione una de las siguientes opciones")
+print("\n 1 - Ingresar notas")
+print("\n 2 - Salir")
+exit = int(input())
+if exit == 1:
+               nota = int(input("ingrese la nota del estudiante numero 1: "))
+               if nota >= 70:
+                   aprobados+=1
+if nota > 60 and nota < 69:
+    aplazados+=1
+if nota < 70:
+ reprobados+=1
+nota = int(input("ingrese la nota del estudiante numero 2: "))
+if nota >= 70:
+     aprobados+=1
+if nota > 60 and nota < 69:
+    aplazados+=1
+if nota < 70:
+ reprobados+=1
+nota = int(input("ingrese la nota del estudiante numero 3: "))
+if nota >= 70:
+    aprobados+=1
+if nota > 60 and nota < 69:
+    aplazados+=1
+if nota < 70:
+ reprobados+=1
+nota = int(input("ingrese la nota del estudiante numero 4: "))
+if nota >= 70:
+     aprobados+=1
+if nota > 60 and nota < 69:
+    aplazados+=1
+if nota < 70:
+ reprobados+=1
+nota = int(input("ingrese la nota del estudiante numero 5: "))
+if nota >= 70:
+     aprobados+=1
+if nota > 60 and nota < 69:
+    aplazados+=1
+if nota < 70:
+ reprobados+=1
+nota = int(input("ingrese la nota del estudiante numero 6: "))
+if nota >= 70:
+     aprobados+=1
+if nota > 60 and nota < 69:
+    aplazados+=1
+if nota < 70:
+ reprobados+=1
+nota = int(input("ingrese la nota del estudiante numero 7: "))
+if nota >= 70:
+     aprobados+=1
+if nota > 60 and nota < 69:
+    aplazados+=1
+if nota < 70:
+ reprobados+=1
+nota = int(input("ingrese la nota del estudiante numero 8: "))
+if nota >= 70:
+     aprobados+=1
+if nota > 60 and nota < 69:
+    aplazados+=1
+if nota < 70:
+ reprobados+=1
+nota = int(input("ingrese la nota del estudiante numero 9: "))
+if nota >= 70:
+     aprobados+=1
+if nota > 60 and nota < 69:
+    aplazados+=1
+if nota < 70:
+ reprobados+=1
+nota = int(input("ingrese la nota del estudiante numero 10: "))
+if nota >= 70:
+     aprobados+=1
+if nota > 60 and nota < 69:
+    aplazados+=1
+if nota < 70:
+ reprobados+=1
+nota = int(input("ingrese la nota del estudiante numero 11: "))
+if nota >= 70:
+     aprobados+=1
+if nota > 60 and nota < 69:
+    aplazados+=1
+if nota < 70:
+ reprobados+=1
+nota = int(input("ingrese la nota del estudiante numero 12: "))
+if nota >= 70:
+     aprobados+=1
+if nota > 60 and nota < 69:
+    aplazados+=1
+if nota < 70:
+ reprobados+=1
+nota = int(input("ingrese la nota del estudiante numero 13: "))
+if nota >= 70:
+     aprobados+=1
+if nota > 60 and nota < 69:
+    aplazados+=1
+if nota < 70:
+ reprobados+=1
+nota = int(input("ingrese la nota del estudiante numero 14: "))
+if nota >= 70:
+     aprobados+=1
+if nota > 60 and nota < 69:
+    aplazados+=1
+if nota < 70:
+ reprobados+=1
+nota = int(input("ingrese la nota del estudiante numero 15: "))
+if nota >= 70:
+     aprobados+=1
+if nota > 60 and nota < 69:
+    aplazados+=1
+if nota < 70:
+ reprobados+=1
+
+print("aprobados", aprobados)
+print("aplazados", aplazados)
+print("reprobados", reprobados)
+
+
 Caso 2:
+Clasicas = 0
+
+Moto = int(input("\nIndique la fecha de fabricacion de la primera motocicleta:"))
+if Moto <= 1992:
+    Clasicas+=1 
+Moto = int(input("\nIndique la fecha de fabricacion de la segunda motocicleta:"))
+if Moto <= 1992:
+    Clasicas+=1 
+Moto = int(input("\nIndique la fecha de fabricacion de la tercera motocicleta:"))
+if Moto <= 1992:
+    Clasicas+=1
+Moto = int(input("\nIndique la fecha de fabricacion de la cuarta motocicleta:"))
+if Moto <= 1992:
+    Clasicas+=1
+Moto = int(input("\nIndique la fecha de fabricacion de la quinta motocicleta:"))
+if Moto <= 1992:
+    Clasicas+=1
+Moto = int(input("\nIndique la fecha de fabricacion de la sexta motocicleta:"))
+if Moto <= 1992:
+    Clasicas+=1
+Moto = int(input("\nIndique la fecha de fabricacion de la septima motocicleta:"))
+if Moto <= 1992:
+    Clasicas+=1
+Moto = int(input("\nIndique la fecha de fabricacion de la octava motocicleta:"))
+if Moto <= 1992:
+    Clasicas+=1
+Moto = int(input("\nIndique la fecha de fabricacion de la penultima motocicleta:"))
+if Moto <= 1992:
+    Clasicas+=1
+Moto = int(input("\nIndique la fecha de fabricacion de la ultima motocicleta:"))
+if Moto <= 1992:
+    Clasicas+=1
+
+print("Numero de motocicletas clasicas:", Clasicas)
 Caso 3:

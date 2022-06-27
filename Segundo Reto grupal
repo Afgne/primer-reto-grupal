@@ -154,4 +154,6 @@ if Moto <= 1992:
     Clasicas+=1
 
 print("Numero de motocicletas clasicas:", Clasicas)
+
 Caso 3:
+

@@ -1,4 +1,5 @@
 Caso 1:
+
 #la nota es en un numero entre 1-100
 aprobados = 0
 aplazados = 0
@@ -120,6 +121,7 @@ print("reprobados", reprobados)
 
 
 Caso 2:
+
 Clasicas = 0
 
 Moto = int(input("\nIndique la fecha de fabricacion de la primera motocicleta:"))

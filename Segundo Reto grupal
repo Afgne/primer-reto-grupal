@@ -160,138 +160,143 @@ Caso 3:
 print("\n")
 Salario = int(input("\nIndique el salario del usuario 1:"))
 if Salario < 500:
-    Dinero = abs (Salario - 500) ;
+    Dinero1 = abs (Salario - 500) ;
     print("\n")
-    print("El dinero que se necesita: ", Dinero, "dolares");
+    print("El dinero que se necesita: ", Dinero1, "dolares");
 if Salario >= 500:
     print("\n")
     print("El salario cumple con lo establecido")
 
 Salario = int(input("\nIndique el salario del usuario 2:"))
 if Salario < 500:
-    Dinero = abs (Salario - 500) ;
+    Dinero2 = abs (Salario - 500) ;
     print("\n")
-    print("El dinero que se necesita: ", Dinero, "dolares");
+    print("El dinero que se necesita: ", Dinero2, "dolares");
 if Salario >= 500:
     print("\n")
     print("El salario cumple con lo establecido")
     
 Salario = int(input("\nIndique el salario del usuario 3:"))
 if Salario < 500:
-    Dinero = abs (Salario - 500) ;
+    Dinero3 = abs (Salario - 500) ;
     print("\n")
-    print("El dinero que se necesita: ", Dinero, "dolares");
+    print("El dinero que se necesita: ", Dinero3, "dolares");
 if Salario >= 500:
     print("\n")
     print("El salario cumple con lo establecido")
 
 Salario = int(input("\nIndique el salario del usuario 4:"))
 if Salario < 500:
-    Dinero = abs (Salario - 500) ;
+    Dinero4 = abs (Salario - 500) ;
     print("\n")
-    print("El dinero que se necesita: ", Dinero, "dolares");
+    print("El dinero que se necesita: ", Dinero4, "dolares");
 if Salario >= 500:
     print("\n")
     print("El salario cumple con lo establecido")
     
 Salario = int(input("\nIndique el salario del usuario 5:"))
 if Salario < 500:
-    Dinero = abs (Salario - 500) ;
+    Dinero5 = abs (Salario - 500) ;
     print("\n")
-    print("El dinero que se necesita: ", Dinero, "dolares");
+    print("El dinero que se necesita: ", Dinero5, "dolares");
 if Salario >= 500:
     print("\n")
     print("El salario cumple con lo establecido")
 
 Salario = int(input("\nIndique el salario del usuario 6:"))
 if Salario < 500:
-    Dinero = abs (Salario - 500) ;
+    Dinero6 = abs (Salario - 500) ;
     print("\n")
-    print("El dinero que se necesita: ", Dinero, "dolares");
+    print("El dinero que se necesita: ", Dinero6, "dolares");
 if Salario >= 500:
     print("\n")
     print("El salario cumple con lo establecido")
 
 Salario = int(input("\nIndique el salario del usuario 7:"))
 if Salario < 500:
-    Dinero = abs (Salario - 500) ;
+    Dinero7 = abs (Salario - 500) ;
     print("\n")
-    print("El dinero que se necesita: ", Dinero, "dolares");
+    print("El dinero que se necesita: ", Dinero7, "dolares");
 if Salario >= 500:
     print("\n")
     print("El salario cumple con lo establecido")
 
 Salario = int(input("\nIndique el salario del usuario 8:"))
 if Salario < 500:
-    Dinero = abs (Salario - 500) ;
+    Dinero8 = abs (Salario - 500) ;
     print("\n")
-    print("El dinero que se necesita: ", Dinero, "dolares");
+    print("El dinero que se necesita: ", Dinero8, "dolares");
 if Salario >= 500:
     print("\n")
     print("El salario cumple con lo establecido")
 
 Salario = int(input("\nIndique el salario del usuario 9:"))
 if Salario < 500:
-    Dinero = abs (Salario - 500) ;
+    Dinero9 = abs (Salario - 500) ;
     print("\n")
-    print("El dinero que se necesita: ", Dinero, "dolares");
+    print("El dinero que se necesita: ", Dinero9, "dolares");
 if Salario >= 500:
     print("\n")
     print("El salario cumple con lo establecido")
 
 Salario = int(input("\nIndique el salario del usuario 10:"))
 if Salario < 500:
-    Dinero = abs (Salario - 500) ;
+    Dinero10 = abs (Salario - 500) ;
     print("\n")
-    print("El dinero que se necesita: ", Dinero, "dolares");
+    print("El dinero que se necesita: ", Dinero10, "dolares");
 if Salario >= 500:
     print("\n")
     print("El salario cumple con lo establecido")
 
 Salario = int(input("\nIndique el salario del usuario 11:"))
 if Salario < 500:
-    Dinero = abs (Salario - 500) ;
+    Dinero11 = abs (Salario - 500) ;
     print("\n")
-    print("El dinero que se necesita: ", Dinero, "dolares");
+    print("El dinero que se necesita: ", Dinero11, "dolares");
 if Salario >= 500:
     print("\n")
     print("El salario cumple con lo establecido")
 
 Salario = int(input("\nIndique el salario del usuario 12:"))
 if Salario < 500:
-    Dinero = abs (Salario - 500) ;
+    Dinero12 = abs (Salario - 500) ;
     print("\n")
-    print("El dinero que se necesita: ", Dinero, "dolares");
+    print("El dinero que se necesita: ", Dinero12, "dolares");
 if Salario >= 500:
     print("\n")
     print("El salario cumple con lo establecido")
 
 Salario = int(input("\nIndique el salario del usuario 13:"))
 if Salario < 500:
-    Dinero = abs (Salario - 500) ;
+    Dinero13 = abs (Salario - 500) ;
     print("\n")
-    print("El dinero que se necesita: ", Dinero, "dolares");
+    print("El dinero que se necesita: ", Dinero13, "dolares");
 if Salario >= 500:
     print("\n")
     print("El salario cumple con lo establecido")
 
 Salario = int(input("\nIndique el salario del usuario 14:"))
 if Salario < 500:
-    Dinero = abs (Salario - 500) ;
+    Dinero14 = abs (Salario - 500) ;
     print("\n")
-    print("El dinero que se necesita: ", Dinero, "dolares");
+    print("El dinero que se necesita: ", Dinero14, "dolares");
 if Salario >= 500:
     print("\n")
     print("El salario cumple con lo establecido")
 
 Salario = int(input("\nIndique el salario del usuario 15:"))
 if Salario < 500:
-    Dinero = abs (Salario - 500) ;
+    Dinero15 = abs (Salario - 500) ;
     print("\n")
-    print("El dinero que se necesita: ", Dinero, "dolares");
+    print("El dinero que se necesita: ", Dinero15, "dolares");
 if Salario >= 500:
     print("\n")
     print("El salario cumple con lo establecido")
+
+SalarioTotal = (Dinero1 + Dinero2 + Dinero3 + Dinero4 + Dinero5 + Dinero6 + Dinero7 + Dinero8 + Dinero9 + Dinero10 + Dinero11 + Dinero12 + Dinero13 + Dinero14 + Dinero15)
+print("\n")
+print("El dinero total que se necesira es de: ", SalarioTotal , "dolares");
+
 
         
 

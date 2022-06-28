@@ -1,4 +1,5 @@
 Caso 1:
+
 print("\n=================================================================")
 print("                              Calendario")
 print("=================================================================")
@@ -51,6 +52,7 @@ elif opcion > 7 or opcion <=0:
     exit()
 
 Caso 2:
+
 print("\n=================================================================")
 print("               20 aniversario de la venta de tecnologia")
 print("=================================================================")
@@ -90,10 +92,55 @@ elif opcion == 4:
     print("Descuento: ", descuento);
     print( "Precio final de la Tarjeta madre: ", preciofinal);
     exit()
+    
 Caso 3:
+
+print('\nBienvenido al departamento de recursos humanos')
+
+print("\nMenú principal:")
+print("\n1. Reto numero 1")
+print("\n2. Reto numero 2")
+print("\n3. Reto numero 3")
+print("\n1.Si")
+print("\n2.No")
+
+Prueba = int(input("\n Por favor puede selecionar en cual reto se encuentra: (1, 2, 3): "))
+if Prueba > 3 or Prueba <= 0:
+    print('\nReintente de nuevo')
+    exit()
+if Prueba == 1:
+    print("\n1.Si")
+    print("\n2.No")
+Reto1 = int(input('\n¿Cumplio el reto 1? : (1, 2): '))
+if Reto1 ==1:
+    print('\nAvance al siguinte reto')
+if not Reto1 == 1:
+    print('Realice de nuevo el reto #1”')
+    exit()
+    
+if Prueba == 2:
+    print("\n1.Si")
+    print("\n2.No")
+Reto2 = int(input('\n¿Cumplio el reto 2? : (1, 2): '))
+if Reto2 ==1:
+    print('\nAvance al siguinte reto')
+if not Reto2 == 1:
+    print('Realice de nuevo el reto #2”')
+    exit()
+    
+if Prueba == 3:
+    print("\n1.Si")
+    print("\n2.No")
+Reto3 = int(input('\n¿Cumplio el reto 3? : (1, 2): '))
+if Reto3 == 1:
+    print('\nAvance a la siguiente estacion')
+if not Reto3 == 1:
+    print('\nRealice de nuevo el reto #3”')
+    exit()
 
 
 Caso 4:
+
 print("\n=================================================================")
 print("                              Calendario")
 print("=================================================================")

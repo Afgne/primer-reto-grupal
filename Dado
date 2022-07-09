@@ -1,34 +1,36 @@
-#Este es un juego de adivinar el número
 import random
 
 intentos=0
 
-print('¡Hola! ¿Cuál es tu nombre?')
-nombre = input()
+numero=random.randint(1,100)
 
-numero=random.randint(1,20)
-print('Bueno, '+nombre+', piensa un número entre 1 y 20.')
-
-while intentos<6:
-    print ('¡Adivínalo! Tienes 6 intentos')
+print('\nBienvenido, por favor seleccione una opcion')
+print('\n1.Adivina el numero')
+print('\n2.Prueba tu suerte')
+print('\n3.Salir')
+opcion = int(input("\nIngrese el numero que desea: "))
+if opcion ==1:
+    while intentos<10:
+        print("\nTienes 10 intentos, adivina el numero, entre el 1 y el 100")
     adivina=input()
     adivina=int(adivina)
 
     intentos=intentos+1
    
     if adivina<numero:
-        print ('¡Demasiado pequeño!')
+        print("\nTu numero es muy bajo, intenta de nuevo")
 
     if adivina>numero:
-        print('¡Demasiado grande!')
+        print("\nTu numero es muy alto, intenta de nuevo")
 
     if adivina==numero:
         break
 
 if adivina==numero:
     intentos=str(intentos)
-    print('Fabuloso, '+nombre+', acertaste el número en '+intentos+' intentos. ¡Estarás orgulloso-a!')
+    print("\nGanaste, Has adivinado el numero en el intento: ", intentos)
 
 if adivina!=numero:
     numero=str(numero)
-    print('¡Qué fatalidad '+nombre+' ! Yo estaba pensando en el número '+numero)
+    print("\nEl numero en que estaba pensando era: ", numero )
+    print("\nNo lograste adivinar el numero")
